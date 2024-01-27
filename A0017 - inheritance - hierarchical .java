@@ -33,7 +33,7 @@ class Horse extends Animal {
     }
 }
 
-public class GPT017 {
+public class A0017 {
     public static void main(String[] args) {
         Dog myDog = new Dog();
         Cat myCat = new Cat();
