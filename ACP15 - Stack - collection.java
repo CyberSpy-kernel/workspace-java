@@ -1,8 +1,10 @@
-import java.util.Stack;
 /*
  * Stack 
  * implementation using java collection framework
  */
+
+import java.util.Stack;
+
 public class ACP15 {
   public static void pushAtBottom(int data, Stack<Integer> s) {
     if(s.isEmpty()) {
