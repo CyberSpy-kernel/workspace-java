@@ -4,6 +4,6 @@
  */
 import java.io.Serializable;
 
-public class GPT014 implements Serializable {
+public class A0014 implements Serializable {
   transient int transientVariable = 10;
 }
