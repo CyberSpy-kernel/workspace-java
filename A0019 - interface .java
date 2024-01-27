@@ -43,7 +43,7 @@ class Cat implements Animal {
 }
 
 // Main class to demonstrate the usage of the interface
-public class GPT019 {
+public class A0019 {
     public static void main(String[] args) {
         // Create an instance of Dog
         Dog myDog = new Dog();
