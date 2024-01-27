@@ -27,8 +27,8 @@ public class P021 {  // P021 = Aggregation
     Address add1 = new Address("mumbai", "Maharashtra", "India");
     Address add2 = new Address("xyz", "abc", "qwe");
 
-    P021 emp1 = new P021(101, "jack", add1);  // P021 = Aggregation
-    P021 emp2 = new P021(102, "hack", add2);  // P021 = Aggregation
+    AB018 emp1 = new AB018(101, "jack", add1);  // P021 = Aggregation
+    AB018 emp2 = new AB018(102, "hack", add2);  // P021 = Aggregation
     
     emp1.display();
     emp2.display();
