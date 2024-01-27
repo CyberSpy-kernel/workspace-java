@@ -2,7 +2,7 @@
  * Parameterized constructor
  */
 
-public class GPT002 {
+public class A0002 {
   public class Student {
     String name;
     int age;
