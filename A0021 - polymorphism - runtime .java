@@ -3,7 +3,7 @@
  * runtime 
  */
 
-public class GPT021 {
+public class A0021 {
   class Animal {
     void sound() {
       System.out.println("Animal makes a sound");
