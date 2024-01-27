@@ -13,7 +13,7 @@ public class P021 {  // P021 = Aggregation
   String name;
   Address address;
 
-  P021(int id, String name, Address address) {  // P021 = Aggregation
+  AB018(int id, String name, Address address) {  // AB018 = Aggregation
     this.id = id;
     this.name = name;
     this.address = address;
