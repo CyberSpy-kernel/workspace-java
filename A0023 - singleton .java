@@ -2,18 +2,18 @@
  * Title: Singleton
  * Example 1 of singleton
  */
-// File Name: TP001.java
-public class TP001 {
+// File Name: A0023.java
+public class A0023 {
 
-  private static TP001 singleton = new TP001( );  // Replace TP001 with Singleton
+  private static A0023 singleton = new A0023( );  // Replace TP001 with Singleton
 
   /* A private Constructor prevents any other
     * class from instantiating.
     */
-  private TP001(){ }
+  private A0023(){ }
   
   /* Static 'instance' method */
-  public static TP001 getInstance( ) {
+  public static A0023 getInstance( ) {
     return singleton;
   }
 
