@@ -47,7 +47,7 @@ class Rectangle extends Shape {
 }
 
 // Main class
-public class GPT018 {
+public class A0018 {
     public static void main(String[] args) {
         // Creating objects of concrete classes
         Circle circle = new Circle(5);
