@@ -3,7 +3,7 @@
  * Static Constructor (Using Static Block)
  */
 
-public class GPT005 {
+public class A0005 {
   public class StaticExample {
     static {
       // Static block
