@@ -8,7 +8,7 @@ class FreshJuice {
   FreshJuiceSize size;
 }
 
-public class TP004 {
+public class A0026 {
 
   public static void main(String[] args) {
     FreshJuice juice = new FreshJuice();
