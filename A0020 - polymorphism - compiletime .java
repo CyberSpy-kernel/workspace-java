@@ -1,6 +1,6 @@
 // compile time polymorphism
 
-public class GPT020 {
+public class A0020 {
   void display(int a) {
     System.out.println("Method with one parameter: "+a);
   }
