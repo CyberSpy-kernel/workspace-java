@@ -1,7 +1,6 @@
 
 /*
  * Title: Insertion sort
- * Ref: YouTube-Apna college-V16
  */
 
 
