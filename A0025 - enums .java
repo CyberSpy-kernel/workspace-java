@@ -10,7 +10,7 @@ class FreshJuice {
   FreshJuiceSize size;
 }
 
-public class TP003 {
+public class A0025 {
   public static void main(String[] args) {
     FreshJuice juice = new FreshJuice();
     juice.size = FreshJuice.FreshJuiceSize.MEDIUM ;
