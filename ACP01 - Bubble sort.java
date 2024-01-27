@@ -1,7 +1,6 @@
 
 /*
  * Title: Bubble sort 
- * reference: YouTube - Apna College - V16;
  */
 
 
