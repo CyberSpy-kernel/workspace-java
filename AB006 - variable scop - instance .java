@@ -4,7 +4,7 @@
  * They belong to the instance of the class and can be acessed within any method or block of that instance.
  */
 
-public class P006 {
+public class AB006 {
     // Instance variable scope
     private int instanceVar = 20;
 
