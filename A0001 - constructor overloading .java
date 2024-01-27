@@ -3,7 +3,7 @@
  * Constructor Overloading
  */
 
-public class GPT004 {
+public class A0004 {
   public class Calculator {
     int result;
 
