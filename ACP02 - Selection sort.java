@@ -1,6 +1,6 @@
 
-/* Title: Selection sort
- * Ref: YouTube-Apna College-V16
+/*
+ * Title: Selection sort
  */
 
 
