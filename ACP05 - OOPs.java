@@ -1,7 +1,6 @@
 
 /*
  * Title: OOPs
- * Ref: YouTube-ApnaCollege-V24
  */
 
 class Pen {
