@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P001_input {
+public class AB001 {
   public static void main(String[] args) {
     // input 
     Scanner sc = new Scanner(System.in);
