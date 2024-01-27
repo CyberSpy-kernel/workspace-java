@@ -3,7 +3,7 @@
  * 
  */
 
-public class P003 {
+public class AB003 {
   public static void main(String[] args) {
     // Integral Types
     byte myByte = 127;
