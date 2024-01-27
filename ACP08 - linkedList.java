@@ -1,6 +1,5 @@
 
 /* Title: Linked List
- * Ref: YouTube-ApnaCollege-V26
  */
 
 public class ACP08 {
