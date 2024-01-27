@@ -20,9 +20,8 @@ If you have suggestions, spot issues, or want to collaborate on a project, don't
 
 Thank you for visiting, and happy coding! 🖥️✨
 
-
-
-
+## Contact
+For inquiries or feedback, feel free to contact the project maintainer at [digambarckumbhar299@gmail.com] or connect on [LinkedIn](https://www.linkedin.com/in/digambar-kumbhar/).
 
 
 
