@@ -1,9 +1,7 @@
 
 /*
  * Title: Inheritance
- * Ref: YouTube-ApnaCollege-V24
  */
-
 
 // superclass (Parent class)
 class Animal {
