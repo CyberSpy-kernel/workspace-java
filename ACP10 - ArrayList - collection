@@ -1,8 +1,6 @@
 /*
  * ArrayList
- * Ref: ApnaCollege-V25
  */
-
 
 import java.util.ArrayList;
 import java.util.Collections;
