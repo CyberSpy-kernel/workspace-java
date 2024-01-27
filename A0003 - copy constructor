@@ -2,7 +2,7 @@
  * Copy constructor
  */
 
-public class GPT003 {
+public class A0003 {
   public class Point {
     int x, y;
 
