@@ -5,7 +5,7 @@
  */
 
 
-public class GPT015 {
+public class A0015 {
   private volatile boolean flag = false;
   
 }
