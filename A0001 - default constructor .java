@@ -3,7 +3,7 @@
  */
 
 
-public class GPT001 {
+public class A0001  {
   public class myClass {
     // Default constructor
     public myClass() {
