@@ -1,9 +1,11 @@
-import java.util.ArrayList;
 
 /*
  * Stack 
  * implementataion with ArrayList
  */
+
+import java.util.ArrayList;
+
 public class ACP13 {
   static class Stack {
     static ArrayList<Integer> list = new ArrayList<>();
