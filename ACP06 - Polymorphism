@@ -2,8 +2,6 @@
 /*
  * Title: Polymorphism
  */
-
-
  
 class Student {
   String name;
