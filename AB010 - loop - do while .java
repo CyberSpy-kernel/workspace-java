@@ -4,7 +4,7 @@
 
 import java.util.Scanner;
 
-public class P010 {
+public class AB010 {
   public static void main(String[] args) {
     // Create a Scanner object for user input
     Scanner sc = new Scanner(System.in);
