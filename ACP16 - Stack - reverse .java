@@ -1,8 +1,10 @@
-import java.util.Stack;
 /*
  * Stack 
  * Reverse a Stack
  */
+
+import java.util.Stack;
+
 public class ACP16 {
   public static void pushAtBottom(int data, Stack<Integer> s) {
     if(s.isEmpty()) {
