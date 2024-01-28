@@ -1,6 +1,6 @@
 /*
  * Stack 
- * implementation using java collection framework
+ * push at the bottom of stack
  */
 
 import java.util.Stack;
