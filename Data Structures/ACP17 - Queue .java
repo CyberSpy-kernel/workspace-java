@@ -1,5 +1,6 @@
 /*
  * Queue
+ * implementation using array
  */
 
 public class ACP17 {
