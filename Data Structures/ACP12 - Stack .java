@@ -2,8 +2,13 @@
  * Stack
  */
 
+// push()
+// pop()
+// peek()
 
-public class ACP12 {
+public class ACP12 {  // ACP12 = stack
+
+  // Node
   static class Node {
     int data;
     Node next;
@@ -12,11 +17,15 @@ public class ACP12 {
       next = null;
     }
   }
+
+  // Stack
   static class Stack {
     static public Node head;
     public static boolean isEmpty() {
       return head == null;
     }
+
+    // push
     public void push(int data) {
       Node newNode = new Node(data);
       if (isEmpty()) { 
@@ -26,6 +35,8 @@ public class ACP12 {
       newNode.next = head;
       head = newNode;
     }
+
+    // pop
     public static int pop() {
       if(isEmpty()) {
         return -1;
@@ -34,6 +45,8 @@ public class ACP12 {
       head = head.next;
       return top;
     }
+
+    // peek
     public static int peek() {
       if(isEmpty()) {
         return -1;
@@ -41,6 +54,9 @@ public class ACP12 {
       return head.data;
     }
   }
+
+
+  
   public static void main(String[] args) {
     Stack s = new Stack();
     s.push(1);
