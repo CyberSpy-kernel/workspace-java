@@ -6,21 +6,20 @@ public class ACP17 {
   static class Queue {
 
     static int arr[];
-    static int size;
+    int size;
 
     static int rear = -1;
-
 
     Queue(int n) {
       arr = new int[n];
       this.size = n;
     }
-    public static boolean isEmpty() {
+    public boolean isEmpty() {
       return rear == -1;
     }
 
-    // enqueuw
-    public static void add(int data) {
+    // enqueue
+    public void add(int data) {
       if(rear == size-1) {
         System.out.println("Full Queue");
         return;
@@ -29,8 +28,9 @@ public class ACP17 {
       rear++;
       arr[rear] = data;
     }
+
     // dequeue 
-    public static int remove() {
+    public int remove() {
       if(isEmpty()) {
         System.out.println("Empty queue");
         return -1;
@@ -42,13 +42,13 @@ public class ACP17 {
       rear--;
       return front;
     }
+
     // peek 
-    public static int peek() {
+    public int peek() {
       if(isEmpty()) {
         System.out.println("Empty queue");
         return -1;
       }
-
       return arr[0];
     }
 
@@ -63,5 +63,6 @@ public class ACP17 {
       System.out.println(q.peek());
       q.remove();
     }
+    
   }
 }
