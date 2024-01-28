@@ -1,11 +1,12 @@
 /*
- * Stack 
- * Reverse a Stack
- */
+* Stack 
+* Reverse a Stack
+*/
 
 import java.util.Stack;
 
 public class ACP16 {
+
   public static void pushAtBottom(int data, Stack<Integer> s) {
     if(s.isEmpty()) {
       s.push(data);
@@ -15,6 +16,8 @@ public class ACP16 {
     pushAtBottom(data, s);
     s.push(top);
   }
+
+  // reverse
   public static void reverse(Stack<Integer> s) {
     if (s.isEmpty()) {
       return;
@@ -31,11 +34,12 @@ public class ACP16 {
     s.push(3);
     // s.push(4);
 
-    pushAtBottom(4, s);
+    reverse(s);
 
     while (!s.isEmpty()) {
       System.out.println(s.peek());
       s.pop();
     }
+
   }
 }
