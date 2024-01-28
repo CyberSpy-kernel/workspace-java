@@ -1,25 +1,25 @@
 
-/* 
+
+/**
  * Title: Linked List
  */
 
-public class ACP08 {
+public class ACP11 {
   Node head;
   private int size;
 
-  ACP08() {
+  ACP11() {
     this.size = 0;
   }
 
   // Node
-  class Node { 
+  class Node {
     String data;
     Node next;  // new thing to learn
 
     Node(String data) {
       this.data = data;
       this.next = null;
-
       size++;
     }
   }
@@ -56,7 +56,7 @@ public class ACP08 {
       return;
     }
     Node currNode = head;
-    while(currNode != null) {
+    while(currNode.next != null) {
       System.out.print(currNode.data + " => ");
       currNode = currNode.next;
     }
@@ -97,7 +97,26 @@ public class ACP08 {
   public int getSize() {
     return size;
   }
-  // reverse recursive
+
+  public void reverseIterate() {
+
+    if (head == null || head.next == null) {
+      return;
+    }
+    Node prevNode = head;
+    Node currNode = head.next;
+    while (currNode != null) {
+      Node nextNode = currNode.next;
+      currNode.next = prevNode;
+
+      // update
+      prevNode = currNode;
+      currNode = nextNode;
+    }
+    head.next = null;
+    head = prevNode;
+  }
+
   public Node reverseRecursive(Node head) {
     if(head == null || head.next == null){
       return head;
@@ -110,28 +129,17 @@ public class ACP08 {
   }
   
   public static void main(String[] args) {
-    ACP08 list = new ACP08();
-    list.addFirst("a");
-    list.addFirst("is");
+    ACP11 list = new ACP11();
+    list.addLast("1");
+    list.addLast("2");
+    list.addLast("3");
+    list.addLast("4");
+    list.addLast("5");
     list.printList();
 
-    list.addLast("List");
+
+    list.head = list.reverseRecursive(list.head);
     list.printList();
-
-    list.addFirst("this");
-    list.printList();
-
-    list.deleteFirst();
-    list.printList();
-
-    list.deleteLast();
-    list.printList();
-
-    
-    System.out.println(list.getSize());
-    list.addFirst("this");
-    System.out.println(list.getSize());
-
   }
 }
 
