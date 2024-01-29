@@ -7,7 +7,7 @@ class Address {
     this.country = country;
   }
 }
-public class P021 {  // P021 = Aggregation
+public class AB018 {  // AB018 = Aggregation
   
   int id;
   String name;
