@@ -4,11 +4,11 @@
  * Title: Linked List
  */
 
-public class ACP08 {
+public class A0061 {
   Node head;
   private int size;
 
-  ACP08() {
+  A0061() {
     this.size = 0;
   }
 
@@ -129,7 +129,7 @@ public class ACP08 {
   }
   
   public static void main(String[] args) {
-    ACP08 list = new ACP08();
+    A0061 list = new A0061();
     list.addLast("1");
     list.addLast("2");
     list.addLast("3");
