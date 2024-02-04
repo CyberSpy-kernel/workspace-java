@@ -1,8 +1,5 @@
 
-
-/* Title: Linked List
- * Ref: YouTube-ApnaCollege-V26
- */
+/* Title: Linked List */
 
  public class A0055 {
   Node head;
