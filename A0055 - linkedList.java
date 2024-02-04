@@ -4,11 +4,11 @@
  * Ref: YouTube-ApnaCollege-V26
  */
 
-public class ACP11 {
+ public class A0055 {
   Node head;
   private int size;
 
-  ACP11() {
+  A0055() {
     this.size = 0;
   }
 
@@ -129,7 +129,7 @@ public class ACP11 {
   }
   
   public static void main(String[] args) {
-    ACP11 list = new ACP11();
+    A0055 list = new A0055();
     list.addLast("1");
     list.addLast("2");
     list.addLast("3");
