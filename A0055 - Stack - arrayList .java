@@ -6,7 +6,7 @@
 
 import java.util.ArrayList;
 
-public class ACP13 {
+public class A0055 {
 
   static class Stack {
     static ArrayList<Integer> list = new ArrayList<>();
