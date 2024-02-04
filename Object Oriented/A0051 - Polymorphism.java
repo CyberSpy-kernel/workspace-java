@@ -18,7 +18,7 @@ class Student {
   }
 }
 
-public class ACP06 {
+public class A0051 {
   public static void main(String[] args) {
     
     Student s1 = new Student();
