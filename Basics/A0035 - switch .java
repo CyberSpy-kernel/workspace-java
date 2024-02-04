@@ -3,7 +3,7 @@
  */
 
 
-public class AB004 {
+public class A0035 {
   public static void main(String[] args) {
     int dayOfWeek = 3;
 
