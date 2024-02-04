@@ -16,7 +16,7 @@ class Dog extends Animal {
  }
 }
 
-public class ACP07 {
+public class A0052 {
   public static void main(String[] args) {
     // Creating an instance of the subclass
     Dog myDog = new Dog();
