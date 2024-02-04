@@ -2,7 +2,7 @@
  * Title: Recursion
  */
 
-public class ACP04 {
+public class A0053 {
   public static void printNum(int n) {
     if (n==0) {
       return;
