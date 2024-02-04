@@ -4,7 +4,7 @@
  * Title: Linked list using collection framework
  */
 import java.util.LinkedList;
-public class ACP09 {
+public class A0064 {
   public static void main(String[] args) {
     LinkedList<String> list = new LinkedList<String>();
 
