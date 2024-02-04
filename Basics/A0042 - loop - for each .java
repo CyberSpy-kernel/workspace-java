@@ -2,7 +2,7 @@
  * Title: for each loop
  */
 
-public class AB011 {
+public class A0042 {
   public static void main(String[] args) {
     int[] numbers = {1,2,3,4,5};
     for(int num: numbers) {
