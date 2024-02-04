@@ -4,7 +4,7 @@
  */
 
 
- public class ACP01 {
+ public class A0031 {
   public static void printArraay(int arr[]) {
     for (int i = 0; i < arr.length; i++) {
       System.out.print(arr[i]+" ");
