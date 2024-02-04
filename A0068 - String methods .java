@@ -32,7 +32,7 @@ public class A0068 {
 
     char[] myStr1 = {'H','e','l','l','o'};
     String myStr2 = "";
-    myStr2 = myStr2.copyValueOf(myStr1, 0, 3);
+    myStr2 = String.copyValueOf(myStr1, 0, 3);
     System.out.println("myStr2: "+myStr2);
   }  
 }
