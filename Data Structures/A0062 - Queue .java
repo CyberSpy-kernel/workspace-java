@@ -3,7 +3,7 @@
  * implementation using array
  */
 
-public class A0061 {
+public class A0062 {
   static class Queue {
 
     static int arr[];
