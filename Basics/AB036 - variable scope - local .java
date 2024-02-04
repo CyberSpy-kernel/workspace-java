@@ -6,7 +6,7 @@
  */
 
 
-public class AB005 {
+public class AB036 {
     public void exampleMethod() {
         // Local variable scope
         int localVar = 10;
