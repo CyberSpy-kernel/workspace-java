@@ -11,7 +11,7 @@ class A {
     return value;
   }
 }
-public class AB015 {
+public class A0048 {
   public static void main(String[] args) {
     A var = new A();
     var.setValue(5);
