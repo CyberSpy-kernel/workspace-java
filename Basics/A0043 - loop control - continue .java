@@ -2,7 +2,7 @@
 /*
  * Title: Continue statement
  */
-public class AB012 {
+public class A0043 {
   public static void main(String[] args) {
     for(int i=1;i<=5;i++) {
       if(i%2!=0){
