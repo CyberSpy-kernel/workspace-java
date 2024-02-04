@@ -17,7 +17,7 @@ class AddCalc extends Calc {
   }
 }
 
-public class AB014 {
+public class A0047 {
   public static void main(String[] args) {
     AddCalc o = new AddCalc();
     int r1 = o.add(3, 4);
