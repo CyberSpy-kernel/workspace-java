@@ -2,7 +2,7 @@
  * Queue using Linked List
  */
 
-public class ACP19 {
+public class A0059 {
   
   // Node 
   static class Node {
