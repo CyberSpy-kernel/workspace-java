@@ -2,7 +2,7 @@
  * Stack
  */
 
- public class ACP12 {  // ACP12 = stack
+ public class A0062 {  // ACP12 = stack
 
   // Node
   static class Node {
