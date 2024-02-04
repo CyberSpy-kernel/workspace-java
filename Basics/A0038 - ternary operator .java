@@ -1,4 +1,4 @@
-public class AB007 {
+public class A0038 {
   public static void main(String[] args) {
     int number = 11;
 
