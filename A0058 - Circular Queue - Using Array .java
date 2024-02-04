@@ -4,7 +4,7 @@
  * circular queue using array
  */
 
- public class ACP18 {
+ public class A0058 {
   static class Queue {
 
     static int arr[];
