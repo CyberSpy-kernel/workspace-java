@@ -4,7 +4,7 @@
 
 import java.util.ArrayList;
 import java.util.Collections;
-public class ACP10 {
+public class A0054 {
   public static void main(String[] args) {
     // Integer | Float | String | Boolean 
     ArrayList<Integer> list = new ArrayList<>();
