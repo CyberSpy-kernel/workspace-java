@@ -4,7 +4,7 @@
 
  import java.util.*;
 
- public class ACP20 {
+ public class A0066 {
   public static void main(String[] args) {
 
     Queue<Integer> q = new LinkedList<>();
