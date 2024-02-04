@@ -1,4 +1,4 @@
-public class AB008 {
+public class A0039 {
   public static void main(String[] args) {
     // Initialize a counter variable
     int i = 1;
