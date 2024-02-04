@@ -5,7 +5,7 @@
 
 import java.util.Stack;
 
-public class ACP15 {
+public class A0056 {
   public static void pushAtBottom(int data, Stack<Integer> s) {
     if(s.isEmpty()) {
       s.push(data);
