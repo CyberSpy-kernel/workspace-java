@@ -1,11 +1,14 @@
 
-/* Title: Linked List */
 
- public class A0055 {
+/**
+ * Title: Linked List
+ */
+
+public class A0061 {
   Node head;
   private int size;
 
-  A0055() {
+  A0061() {
     this.size = 0;
   }
 
@@ -126,7 +129,7 @@
   }
   
   public static void main(String[] args) {
-    A0055 list = new A0055();
+    A0061 list = new A0061();
     list.addLast("1");
     list.addLast("2");
     list.addLast("3");
