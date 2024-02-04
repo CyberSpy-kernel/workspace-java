@@ -4,7 +4,7 @@
 
 import java.util.Stack;
 
-public class ACP21 {
+public class A0060 {
   static class Queue {
     static Stack<Integer> s1 = new Stack<>();
     static Stack<Integer> s2 = new Stack<>();
