@@ -1,6 +1,8 @@
 
 // Binary search tree
 
+import java.util.ArrayList;
+
 public class A0074 {
   static class Node {
     int data;
@@ -11,6 +13,8 @@ public class A0074 {
       this.data = data;
     }
   }
+
+  // insert
 
   public static Node insert(Node root, int val) {
     if(root == null) {
@@ -30,6 +34,8 @@ public class A0074 {
     return root;
   }
 
+  // inorder 
+
   public static void inorder(Node root) {
     if(root == null) {
       return;
@@ -38,6 +44,8 @@ public class A0074 {
     System.out.print(root.data+" ");
     inorder(root.right);
   }
+
+  // search
 
   public static boolean search(Node root, int key) {
     if (root == null) {
@@ -53,6 +61,8 @@ public class A0074 {
       return search(root.right, key);
     }
   }
+
+  // delete 
 
   public static Node delete(Node root, int val) {
     if(root.data > val) {
@@ -85,6 +95,8 @@ public class A0074 {
     return root;
   }
 
+  // inorderSuccessor
+
   public static Node inorderSuccessor(Node root) {
     while (root.left != null) {
       root = root.left;
@@ -92,6 +104,8 @@ public class A0074 {
 
     return root;
   }
+
+  // printInRange
 
   public static void printInRange(Node root, int x, int y) {
     if(root == null) {
@@ -101,14 +115,40 @@ public class A0074 {
       printInRange(root.left, x, y);
       System.out.print(root.data+" ");
       printInRange(root.right, x, y);
-    } else if(root.data >= y) {
+    } 
+    else if(root.data >= y) {
       printInRange(root.left, x, y);
-    } else {
+    } 
+    else {
       printInRange(root.right, x, y);
     }
   }
+
+  // root to leaf paths
+  public static void printPath(ArrayList<Integer> path ) {
+    for (int i = 0; i < path.size(); i++) {
+      System.out.print(path.get(i) + "->");
+    }
+    System.out.println();
+  }
+  public static void printRoot2Leaf(Node root, ArrayList<Integer> path) {
+    if(root == null) {
+      return;
+    }
+    path.add(root.data);
+
+    // leaf
+    if(root.left == null && root.right == null) {
+      printPath(path);
+    } else {  // non-leaf
+      printRoot2Leaf(root.left, path);
+      printRoot2Leaf(root.right, path);
+    }
+    path.remove(path.size() - 1);
+  }
   public static void main(String[] args) {
-    int values[] = {5, 1, 3, 4, 2, 7};
+    // int values[] = {5, 1, 3, 4, 2, 7};
+    int values[] = {8, 5, 3, 6, 10, 11, 14};
     Node root = null;
     
     for (int i = 0; i < values.length; i++) {
@@ -126,6 +166,9 @@ public class A0074 {
     // delete(root, 3);
     // inorder(root);
 
-    printInRange(root, 3, 10);
+    // printInRange(root, 3, 10);
+
+    printRoot2Leaf(root, new ArrayList<>());
+
   }
 }
