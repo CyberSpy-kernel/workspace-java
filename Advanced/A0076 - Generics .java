@@ -4,7 +4,7 @@ import java.util.*;
 
 public class A0076 {
 	public static void main(String[] args) {
-		ArrayList<String> list = new ArrayList<String>();
+		ArrayList<String> list = new ArrayList<String>();	// create ArrayList for String values
 		list.add("Artist");
 		list.add("Ghost");
 		
