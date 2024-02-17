@@ -1,10 +1,10 @@
-package HackerRank;
-
+//Complete this code or write your own from scratch
 import java.util.*;
 import java.io.*;
 
-public class HR0021 {
-	public static void main(String []argh) {
+class Solution{
+	public static void main(String []argh)
+	{
         Scanner in = new Scanner(System.in);
         int n=in.nextInt();
         in.nextLine();
@@ -30,14 +30,5 @@ public class HR0021 {
 	}
 }
 
-//	sample input
-//	3
-//	uncle sam
-//	99912222
-//	tom
-//	11122222
-//	harry
-//	12299933
-//	uncle sam
-//	uncle tom
-//	harry
+
+
