@@ -1,7 +1,7 @@
 package ProblemSolving;
 import java.util.Scanner;
 
-public class PrimeNumber {
+public class Solution {
   public static void main(String[] args) {
     int n,count =0;
     System.out.println("Enter any number: ");
