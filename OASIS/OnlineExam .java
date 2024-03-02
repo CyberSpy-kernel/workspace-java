@@ -120,6 +120,7 @@ class OnlineExamSystem {
   public void solve(){
     long start = System.currentTimeMillis();
     long terminate = start + 60 * 1000;
+    // @SuppressWarnings("resource")
     Scanner sc = new Scanner(System.in);
     int score = 0;
     int c = 0, w = 0;
@@ -133,9 +134,9 @@ class OnlineExamSystem {
     {
         System.out.println("----------------------------------------------------------------------------------------");
         System.out.println("----------------------------------------------------------------------------------------");
-        System.out.println("(Coding)-Q1. System.out.println(?; ===> Here System & out is...?");
+        System.out.println("(Coding)-Q1. Which is a valid keyword in java?");
         System.out.println("\n" + "Options ---> ");
-        System.out.println("a. System & out both are classes\nb. System is class and out is object reference of OutputPrintStream\nc. System is class and out is object reference of PrintStream\nd. System is class and out is object reference of FilePrintStream");
+        System.out.println("a. interface\nb. string\nc. Float\nd. unsigned");
         System.out.print("\n" + "Answer: ");
         ans = sc.next().charAt(0);
         if(ans == 'c')
@@ -147,9 +148,9 @@ class OnlineExamSystem {
         
         System.out.println("----------------------------------------------------------------------------------------");
         System.out.println("----------------------------------------------------------------------------------------");
-        System.out.println("(Coding)-Q2. Which of the following interface must contain a unique element?");
+        System.out.println("(Coding)-Q2. Which one of the following will declare an array and initialize it with five numbers?");
         System.out.println("\n" + "Options ---> ");
-        System.out.println("a. Set\nb. Collection\nc. List\nd. Array");
+        System.out.println("a. Array a = new Array(5);\nb. int [] a = {23,22,21,20,19};\nc. int a [] = new int[5];\nd. int [5] array;");
         System.out.print("\n" + "Answer: ");
         ans = sc.next().charAt(0);
         if(ans == 'a')
@@ -206,6 +207,7 @@ class OnlineExamSystem {
     score = ((c * 5) - w);
     System.out.println("Number of correct answers: " + c);
     System.out.println("Congratulations!! Your scored " + score + " points...");
+    sc.close();
 }
 
   
