@@ -74,10 +74,11 @@ public class NumberGuessingGame {
             userGuess = getUserInput(input, "");
             attempts++;
             // System.out.println(randomNumber);
+            // System.out.println(userGuess);
             if (userGuess > randomNumber) {
-                System.out.println("Lower");
+                System.out.println("Your Guess is Higher");
             } else if (userGuess < randomNumber) {
-                System.out.println("Higher");
+                System.out.println("Lower");
             }
         } while (randomNumber != userGuess);
 
