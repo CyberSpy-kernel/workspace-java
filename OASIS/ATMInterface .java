@@ -101,7 +101,7 @@ public class ATMInterface {
             System.out.println("\nInsufficient Account Balance\nAvailable balance is " + account.getBalance() + " only\n--------------------\n");
           }
           break;
-        case 4:
+        case 
           System.out.println("\nWelcome to our ATM\nAvailable Balance: " + account.getBalance() + "\nTotal Amount Deposited: " + account.getDepositAmount() + "\nTotal Withdraw Amount: " + account.getWithdrawAmount() + "\nThank You !!!\n--------------------\n");
           break;
         case 5:
