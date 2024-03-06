@@ -1,5 +1,3 @@
-
-
 package MyOIB;
 
 import java.util.*;
@@ -46,17 +44,17 @@ class Question {
     }
 }
 
-class OnlineExamSystem {
+class OnlineExamination {
     private HashMap<String, User> users = new HashMap<>();
     private User currentUser;
     private Scanner scanner = new Scanner(System.in);
 
-    public OnlineExamSystem() {
+    public OnlineExamination() {
         initializeUsers();
     }
 
     void initializeUsers() {
-        users.put("Soumya", new User("Artist", 12345));
+        users.put("Artist", new User("Artist", 12345));
     }
 
     void run() {
@@ -244,7 +242,7 @@ class OnlineExamSystem {
       }
   }
     public static void main(String[] args) {
-        OnlineExamSystem examSystem = new OnlineExamSystem();
+        OnlineExamination examSystem = new OnlineExamination();
         examSystem.run();
     }
 }
