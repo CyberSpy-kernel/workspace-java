@@ -1,4 +1,4 @@
-package Basics;
+package Strings;
 
 // difference between '==' and '.equals()' 
 package Advanced;
