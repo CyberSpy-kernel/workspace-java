@@ -10,11 +10,11 @@ import jakarta.persistence.Transient;
 
 //@Entity(name="artist_table") // use table name = 'artist_table'
 @Entity
-//@Table(name="alien_table")
+//@Table(name="artist_table")
 public class Artist {
 	@Id
 	private int aid;
-	@Transient
+//	@Transient
 	private String aname;
 //	@Column(name="alien_color")
 	private String color;
