@@ -1,3 +1,5 @@
+// src\main\java\com\artist\DemoHib
+
 package com.telusko.DemoHib;
 
 import org.hibernate.Session;
@@ -10,17 +12,17 @@ public class App {
 	public static void main(String[] args) {
         System.out.println("Hello World!");
 
-        Alien telusko = new Alien();
-        telusko.setAid(102);
-        telusko.setAname("Artist");
-        telusko.setColor("LightPink");
+        Alien arts = new Artist();
+        arts.setAid(102);
+        arts.setAname("Artist");
+        arts.setColor("LightPink");
 
-        Configuration con = new Configuration().configure().addAnnotatedClass(Alien.class);
+        Configuration con = new Configuration().configure().addAnnotatedClass(Artist.class);
         SessionFactory sf = con.buildSessionFactory();
         Session session = sf.openSession();
         Transaction tx = session.beginTransaction();
 
-        session.save(telusko);
+        session.save(arts);
         tx.commit();
         session.close();
         sf.close();
