@@ -1,6 +1,6 @@
 // src\main\java\com\artist\DemoHib
 
-package com.telusko.DemoHib;
+package com.artist.DemoHib;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
