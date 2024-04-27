@@ -1,4 +1,4 @@
-// src\main\java\com\telusko\DemoHib\
+// src\main\java\com\artist\DemoHib\
 
 package com.artist.DemoHib;
 
