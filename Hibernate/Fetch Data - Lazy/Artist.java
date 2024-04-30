@@ -14,7 +14,7 @@ public class Artist {
 	private int aid;
 	private String aname;
 	
-	@OneToMany(mappedBy="artist",fetch=FetchType.EAGER)
+	@OneToMany(mappedBy="artist")
 	private Collection<Laptop> laps = new ArrayList<Laptop>();
 
 	public int getAid() {
