@@ -1,5 +1,10 @@
 create database Artist;
 use Artist;
+create table artist (
+	aid int,
+    aname varchar(50),
+    color varchar(20)
+);
 create table users1 (
 	aid int,
     aname varchar(50),
